@@ -1,5 +1,5 @@
 const sequelize = require('sequelize');
-const conn = require("../database/database")
+const conn = require("../database/database");
 
 /** 
  * Cria a representação da tabela de user para
@@ -44,6 +44,6 @@ const Usuario = conn.define(
 
 );
 
-Usuario.sync({force:true})
+// Usuario.sync({force:true})
 
 module.exports = Usuario;
