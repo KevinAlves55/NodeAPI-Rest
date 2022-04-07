@@ -39,6 +39,6 @@ const Usuario = connection.define(
     }
 );
 
-// Usuario.sync({force:true});
+//Usuario.sync({force:true});
 
 module.exports = Usuario;
